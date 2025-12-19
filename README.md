@@ -3,7 +3,7 @@
 Ce projet est une application web front-end développée en HTML, CSS et JavaScript.
 Il a été réalisé pour renforcer mes compétences en intégration web et en logique JavaScript.
 
-🔗 Démo en ligne : https://ton-lien-github-pages
+🔗 Démo en ligne :  https://amonandre12.github.io/kasa-app/
 
 ## 🛠️ Technologies utilisées
 - HTML5
