@@ -72,7 +72,6 @@
 }
 
 
-
 .startIcons {
     display: flex;             
     flex-direction: row;        
@@ -170,9 +169,16 @@ footer p {
 }
 
 .equipeWrapper {
-    margin-left: 8px;
     padding: 1px;
 }
+
+
+.equipement {
+ position: relative;
+ bottom: 22px;
+ left: 10px;
+}
+
 
 .hidden {
     display: none;
@@ -217,10 +223,6 @@ footer p {
    width: 60px;
 } 
 
-
-.footer_container {
-    padding-top: 40px;
-}
 
 #cosyImage img{
     width: 1321px;
@@ -313,7 +315,7 @@ footer p {
     justify-content: space-between;
     margin: 15px;
     position: relative;
-    bottom: 90px;
+    bottom: 113px;
 }
 
 .wrapper {
@@ -325,9 +327,8 @@ footer p {
 
 #equipement {
     position:absolute;
-    right: 39%;
+    left: 52%;
     top: 80px;
-    margin-bottom: 10px;
 }
 
 .wrapper p {
