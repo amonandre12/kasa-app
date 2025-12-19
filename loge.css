@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head_banner {
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head_banner .link {
+    display: flex;
+    gap: 16px;
+    margin-top: 15px;
+}
+
+.underline-link {
+    position: relative;
+}
+
+.underline-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 32px;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+
+.underline-link:hover::after {
+    transform: scaleX(1);
+}
+
+.imageProfil {
+    margin-top: 20px;
+}
+
+.head_banner .link a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+#cosyImage img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover; 
+  overflow: hidden; 
+}
+
+
+.btn {
+    padding: 4px 19px;
+    margin: 5px;
+    background-color: #ff6060;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 6px;
+}
+
+.nameColor {
+    color: #ff6060;
+}
+
+
+
+.startIcons {
+    display: flex;             
+    flex-direction: row;        
+    justify-content: space-between; 
+    align-items: center;        
+    width: 100%;               
+    margin-top: 15px;          
+}
+
+
+#myProfilGroup {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+
+.starIcon {
+    
+    width: 23px;   
+    height: auto;  
+    margin-right: 4px; 
+}
+
+
+.profilImage {
+    border-radius: 50%;
+    width: 40px;
+    position: relative;
+    bottom: 9px;
+}
+
+.boutons {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    color: #ff6060;
+    margin: 3px;
+    font-size: 20px;
+}
+
+.footer_container {
+    background-color: #000;
+    padding: 20px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+
+footer {
+    text-align: center;
+}
+
+
+footer p {
+    color: white;
+    margin-top: 30px;
+}
+
+.arrowContent {
+    display: flex;
+    flex-direction: row;
+    gap: 230px;
+    margin-bottom: 15px;
+    background-color: #ff6060;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 6px;
+    height: 35px;
+}
+
+
+.arrowContent h2 {
+    color: white;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.arrowContent img {
+    margin-top: 12px;
+    width: 15px;
+}
+
+.arrow1{
+    margin-left: 12px;
+}
+
+
+.wrapper {
+    margin-left: 5px;
+    padding: 2px;
+}
+
+.equipeWrapper {
+    margin-left: 8px;
+    padding: 1px;
+}
+
+.hidden {
+    display: none;
+}
+
+.carousel-container {
+    position: relative; 
+    width: 100%;
+    height: 450px;      
+}
+
+.arrow {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%); 
+    z-index: 10;
+    width: 45px;
+    cursor: pointer;
+}
+
+
+.left { left: 5px; }
+.right { right: 5px; }
+
+.arrow_content img {
+    width: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+@media screen and (min-width : 768px) {
+
+.arrow {
+    top: 60%;  
+}
+
+.left { left: 1px; }
+.right { right: 20px; }
+
+
+.arrow_content img {
+   width: 60px;
+} 
+
+
+.footer_container {
+    padding-top: 40px;
+}
+
+#cosyImage img{
+    width: 1321px;
+    height: 450px; 
+    object-fit: cover; 
+    margin: 10px;
+    overflow: hidden; 
+    margin-top: 20px;
+}
+
+.head_banner .link {
+    gap: 26px;
+    margin-right: 20px; 
+    margin-top: 10px;
+}
+
+
+.head_banner {
+    padding: 30px;
+}
+
+
+.head_banner .link a {
+    font-size: 25px;
+}
+
+
+.title  {
+    font-size: 2.2rem;
+}
+
+
+.btn {
+    padding: 4px 40px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.startIcons  {
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    bottom: 127px;
+}
+
+
+#startContainer { 
+    order: 2; 
+}
+
+    
+.profilImage {
+    border-radius: 50%;
+    width: 50px;
+}
+
+#myProfilGroup { 
+    order: 1;
+}
+
+/* The arrow content */
+
+.arrowContent {
+    width: 46%;
+    gap: 450px;
+    padding: 15px;
+}
+
+
+.arrowContent img {
+    width: 15px;
+}
+
+.arrowContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+    position: relative;
+    bottom: 90px;
+}
+
+.wrapper {
+  position: absolute;
+  right: 740px;   
+  top: 80px;  
+  width: 580px; 
+}
+
+#equipement {
+    position:absolute;
+    right: 39%;
+    top: 80px;
+    margin-bottom: 10px;
+}
+
+.wrapper p {
+    font-size: 20px;
+}
+
+}
