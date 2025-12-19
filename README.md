@@ -19,4 +19,4 @@ Il a été réalisé pour renforcer mes compétences en intégration web et en l
 ## 🚀 Installation
 1. Cloner le dépôt :
 ```bash
-git clone https://github.com/ton-username/nom-du-projet.git
+git clone https://github.com/amonandre12/kasa-app.git
