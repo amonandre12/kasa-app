@@ -37,10 +37,11 @@ const myProfilGroup = document.getElementById('myProfilGroup');
   //  The counter 
   const counter = document.createElement('p')
   counter.textContent = `${index + 1} / ${pictures.length}`;
+  counter.classList.add('counter')  
   cosyImage.appendChild(counter) ; 
  }
   
-updateCarrousel()
+updateCarrousel(); 
   
 const arrowLeft = document.getElementById('arrowLeft')
 const arrowRight = document.getElementById('arrowRight')
