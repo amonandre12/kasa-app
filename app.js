@@ -22,7 +22,6 @@ function afficheImages() {
          
         const img = document.createElement('img');
         img.src = card.pictures[0]
-        console.log(img.src)
         img.alt = "Les images de commodations ";
         img.classList.add('card-image');
     
