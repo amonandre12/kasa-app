@@ -165,7 +165,7 @@ footer p {
 
 .counter {
     position: absolute;
-    top: 50%;
+    top: 39%;
     left: 50%;
     color: white;
     font-size: 1.5em;
@@ -213,7 +213,7 @@ footer p {
 
 .arrow {
     position: absolute;
-    top: 35%;
+    top: 30%;
     transform: translateY(-50%); 
     z-index: 10;
     width: 45px;
