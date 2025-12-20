@@ -58,13 +58,13 @@
 
 
 .btn {
-    padding: 4px 19px;
+    padding: 3px 10px;
     margin: 5px;
     background-color: #ff6060;
     color: white;
     border: none;
     border-radius: 15px;
-    font-size: 9px;
+    font-size: 10px;
 }
 
 .nameColor {
