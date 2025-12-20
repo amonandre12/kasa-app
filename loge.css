@@ -64,7 +64,7 @@
     color: white;
     border: none;
     border-radius: 15px;
-    font-size: 6px;
+    font-size: 9px;
 }
 
 .nameColor {
@@ -136,11 +136,11 @@ footer p {
 .arrowContent {
     display: flex;
     flex-direction: row;
-    gap: 220px;
+    gap: 210px;
     margin-bottom: 15px;
     background-color: #ff6060;
     cursor: pointer;
-    width: 97%;
+    width: 98%;
     border-radius: 6px;
     height: 35px;
 }
@@ -152,7 +152,7 @@ footer p {
     font-size: 18px;
     margin-top: 5px;
 }
-
+ 
 .arrowContent img {
     margin-top: 12px;
     width: 15px;
