@@ -136,11 +136,11 @@ footer p {
 .arrowContent {
     display: flex;
     flex-direction: row;
-    gap: 210px;
+    gap: 195px;
     margin-bottom: 15px;
     background-color: #ff6060;
     cursor: pointer;
-    width: 98%;
+    width: 100%;
     border-radius: 6px;
     height: 35px;
 }
